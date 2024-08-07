@@ -37,6 +37,7 @@ body{
     display: inline-block;
     padding: 16px;
     border-bottom: 2px solid;
+    border-radius: 10px;
 }
 
 .hero nav ul{
@@ -60,6 +61,9 @@ body{
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: 2px;
+    border: 0px solid white;
+    text-align: center;
+    
 }
 
 .hero nav a:hover{
@@ -81,6 +85,7 @@ article{
     background-color: white;
     padding: 16px;
     margin-bottom: 32px;
+    border-radius: 10px;
 }
 
 article h2{
@@ -88,6 +93,7 @@ article h2{
     background-color: #eee;
     padding: 12px;
     margin-top: 0;
+    border-radius: 10px;
 }
 
 .btn{
@@ -111,4 +117,17 @@ a .btn  Espaço = Descendente (Se está contido)
     padding:30px;
     text-shadow: 2px 2px 2px black;
     letter-spacing: 2px;
+}
+
+.lista{
+    display: flex;
+    flex-direction: column; 
+    width: 150px;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.hero-lista{
+    display: flex;
+    justify-content: flex-end;
 }
